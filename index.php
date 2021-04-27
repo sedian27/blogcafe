@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog de Café</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <header class="site-header">
-        <div class="contenedor">
-            <div class="barra">
-                <a href="/">
-                    <h1 class="no-margin">Blog<span>DeCafé</span></h1>
-                </a>
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="cursos.html">Cursos</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
-            </div><!--Barra-->
-        </div><!--Contenedor-->
-
-        <div class="texto-header">
-            <h2 class="no-margin">Blog de Café con consejos y Cursos</h2>
-            <p class="no-margin">Aprende de los expertos con los mejores recetas y consejos</p>
-        </div>
-    </header>
-
+<?php  include_once 'includes/header.html'?>
     <div class="contenido-principal contenedor">
         <main class="blog">
             <h2>Nuestro Blog</h2>
@@ -91,18 +58,4 @@
         </aside>
     </div><!-- Contenido Principal -->
 
-    <footer class="site-footer">
-        <div class="contenedor">
-            <div class="barra">
-                <p>Blog<span>DeCafé</span></p>
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="cursos.html">Cursos</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
-            </div><!--Barra-->
-        </div><!--Contenedor-->
-    </footer>
-    
-</body>
-</html>
+<?php include_once 'includes/footer.html' ?>
